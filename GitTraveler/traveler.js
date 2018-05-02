@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github traveler
 // @namespace    http://cxuesong.com/
-// @version      0.1.0
+// @version      0.1.1
 // @updateURL    https://raw.githubusercontent.com/CXuesong/TampermonkeyScripts/master/GitTraveler/traveler.js
 // @homepage     https://github.com/CXuesong/TampermonkeyScripts/tree/master/GitTraveler
 // @description  Try to take over the world!
@@ -9,7 +9,6 @@
 // @match        https://github.com/*
 // @require      https://code.jquery.com/jquery-3.3.1.slim.min.js
 // @grant        GM_setClipboard
-// @run-at       document-end
 // ==/UserScript==
 /// <reference path="../node_modules/@types/jquery/index.d.ts" />
 
@@ -80,9 +79,12 @@
             {
                 button.prependTo(container);
             } else {
-                button.appendTo(container);                
+                button.appendTo(container);
             }
         }
     }
+    window.addEventListener("pjax:complete", function (e) {
+        init();
+    }, false);
     init();
 })();
