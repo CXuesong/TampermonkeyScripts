@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Github traveler
 // @namespace    http://cxuesong.com/
-// @version      0.1
+// @version      0.1.0
+// @updateURL    https://raw.githubusercontent.com/CXuesong/TampermonkeyScripts/master/GitTraveler/traveler.js
+// @homepage     https://github.com/CXuesong/TampermonkeyScripts/tree/master/GitTraveler
 // @description  Try to take over the world!
 // @author       CXuesong
 // @match        https://github.com/*
