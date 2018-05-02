@@ -1,0 +1,24 @@
+{
+  "name": "tampermonkey-scripts",
+  "version": "1.0.0",
+  "description": "A collection of Tampermonkey scripts authored or edited by me.",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CXuesong/TampermonkeyScripts.git"
+  },
+  "keywords": [
+    "tampermonkey"
+  ],
+  "author": "CXuesong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CXuesong/TampermonkeyScripts/issues"
+  },
+  "homepage": "https://github.com/CXuesong/TampermonkeyScripts#readme"
+}
