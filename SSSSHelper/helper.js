@@ -2,8 +2,8 @@
 // @name         SSSS Helper
 // @namespace    http://cxuesong.com/
 // @version      0.2.0
-// @updateURL    https://gist.githubusercontent.com/CXuesong/27ff62fef5456dfbebd00a02b5546fa5/raw/SSSS%20Helper.js
-// @homepage     https://gist.github.com/CXuesong/27ff62fef5456dfbebd00a02b5546fa5#file-readme-md
+// @updateURL    https://raw.githubusercontent.com/CXuesong/TampermonkeyScripts/master/SSSSHelper/helper.js
+// @homepage     https://github.com/CXuesong/TampermonkeyScripts/tree/master/SSSSHelper
 // @description  Makes SSSS web-comic more accessible to PC users. (Plus aRTD now.)
 // @author       CXuesong
 // @match        http://sssscomic.com/comic.php*
